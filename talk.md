@@ -30,7 +30,7 @@ class: center, middle
 ## Summary of what happened
 
 - 2019: Decided to move to LGPL
-- All authors have agreed
+- All authors have agreed by now
 - We decided to not clean up Git history
 
 
@@ -128,7 +128,7 @@ $ git merge upstream/master
 
 - No "make release"
 - Easier to test
-- Probably also less to do on a release branch since the release code is closer to `master`
+- Probably also less to do on a release branch since the release code is closer to `master` and already tested
 - Tarball can be downloaded directly from GitLab
 
 
