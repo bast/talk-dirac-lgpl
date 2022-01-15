@@ -30,7 +30,7 @@ class: center, middle
 ## Summary of what happened
 
 - 2019: Decided to move to LGPL
-- All authors have agreed by now
+- All authors [have agreed](https://gitlab.com/dirac/dirac-private/-/issues/515) by now
 - We decided to not clean up Git history
 
 
