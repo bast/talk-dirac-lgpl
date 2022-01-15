@@ -8,3 +8,7 @@ Slides served using [Cicero](http://cicero.xyz), which can be [run locally](http
 ## License
 
 - Text is free to share and remix under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Images:
+- https://commons.wikimedia.org/wiki/File:Paul_Dirac,_1933.jpg#/media/File:Paul_Dirac.jpg (CC-BY-SA-4.0)
+- https://commons.wikimedia.org/wiki/File:Paul_Dirac,_1933.jpg#/media/File:Paul_Dirac,_1933.jpg (public domain)
