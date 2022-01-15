@@ -1,8 +1,8 @@
 # Talk: DIRAC moving to LGPL
 
-- [Slide deck](http://cicero.xyz/v3/remark/0.14.0/github.com/bast/talk-dirac-lgpl/main/talk.md/)
+- [Slide deck](https://cicero.xyz/v3/remark/0.14.0/github.com/bast/talk-dirac-lgpl/main/talk.md/)
 
-Slides served using [Cicero](http://cicero.xyz), which can be [run locally](https://github.com/bast/cicero).
+Slides served using [Cicero](https://cicero.xyz), which can be [run locally](https://github.com/bast/cicero).
 
 
 ## License
