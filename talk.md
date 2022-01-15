@@ -48,7 +48,7 @@ class: center, middle
 
 - This is important because if they cannot redistribute their modifications (as part of a publication),
   they may choose a different code to base their modifications on
-- Open source does not make contributing or maintenance any easier but it simplifies sharing
+- .emph[Open source does not make contributing or maintenance any easier] but it simplifies sharing
 
 
 ### Others cannot modify the license
@@ -76,9 +76,44 @@ class: center, middle
 
 ---
 
-## Changes in our day to day
+## Changes in our day to day (1/2)
 
-write me ...
+We will now work with more than one remote repository.
+
+
+### Public repo: https://gitlab.com/dirac/dirac/
+
+- `master` and `release-*` branches
+- Anything that is on `master` is meant to become the next release
+
+
+### Private repo: https://gitlab.com/dirac/dirac-private/
+
+- Nothing is public, you decide when to share
+- No `master` branch, no `release-*` branches
+
+---
+
+## Changes in our day to day (2/2)
+
+### Updating your development with upstream changes
+
+- You fetch upstream changes from the public repo
+
+```console
+$ git remote add upstream https://gitlab.com/dirac/dirac.git
+$ git fetch upstream
+$ git checkout myownbranch
+$ git merge upstream/master
+```
+
+
+### Contributing your changes upstream
+
+- Push the branch to https://gitlab.com/dirac/dirac.git
+- Create merge request towards `master`
+- This code will be in the next release (no more code removal in the release process)
+- Then delete the branch on https://gitlab.com/dirac/dirac-private/ (or keep it, up to you)
 
 ---
 
