@@ -148,16 +148,22 @@ $ git merge upstream/master
 
 ---
 
-## Steps we can take once the code is public
+## Steps we can take once the code is public (1/2)
 
-- **Definitely:** Move Sphinx documentation from own server to [Read the Docs](https://readthedocs.org/)
-  - This will allow us to disband the web server we run
+- **Documentation:** Move Sphinx documentation away from own server
+  - [Read the Docs](https://readthedocs.org/)
+  - or GitLab pages (we may need a runner to build)
+  - or GitHub pages (we don't need own runner to build)
 
-- **Suggestion:** Use [GitHub Actions](https://github.com/features/actions) for testing (in addition to [GitLab CI](https://github.com/features/actions)):
+- **Testing:** Use [GitHub Actions](https://github.com/features/actions) for testing (in addition to [GitLab CI](https://github.com/features/actions)):
   - Linux, macOS, and Windows testing infrastructure for free (within some time limit)
   - At least a subset of tests
 
-- **Maybe:** Move from DokuWiki (own server) to anything Markdown-based
+---
+
+## Steps we can take once the code is public (2/2)
+
+- **Website:** Move from DokuWiki (own server) to anything Markdown-based
   and serve via GitLab pages (there are many tools which render Markdown to HTML)
   - Easy to set up
   - But less easy to migrate what we have, but doable (thankfully DokuWiki stores data as plain text)
