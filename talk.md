@@ -39,6 +39,7 @@ class: center, middle
 - Copyright stays with authors
 - Only copyright holders can change the license
 - Software license and citations are two different things
+- Making code public under LGPL and releasing versions are also two different things
 
 ---
 
@@ -57,6 +58,7 @@ class: center, middle
 - However, the DIRAC modifications must be redistributed under same license terms as ours
 - Since we allow modifications under LGPL, we cannot be locked out from reusing modifications shared
   by others
+- .emph[We do not have to ask for permission for reusing modifications]
 
 ---
 
