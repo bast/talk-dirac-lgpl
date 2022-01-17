@@ -72,7 +72,6 @@ class: center, middle
 - Create public repo https://gitlab.com/dirac/dirac/ and move `master` and `release-*` into there
 - Update README in public and private repos
 - Protect `master` and `release-*` on https://gitlab.com/dirac/dirac/
-- Remove push protection from https://gitlab.com/dirac/dirac-private/
 - Remove `master` and `release-*` from https://gitlab.com/dirac/dirac-private/
 - Announce: website, Twitter, mailing list
 
